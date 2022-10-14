@@ -35,15 +35,15 @@ namespace SudokuProject
 
         private void btEasy_Click(object sender, EventArgs e)
         {
-            int[,] feedback = { { 0, 3, 0, 8, 0, 5, 0, 0, 1},
-                                { 9, 0, 5, 6, 0, 0, 7, 0, 0},
-                                { 0, 8, 1, 0, 9, 3, 2, 4, 5},
-                                { 8, 0, 6, 5, 0, 0, 0, 0, 0},
-                                { 0, 4, 0, 0, 3, 0, 5, 0, 0},
-                                { 0, 0, 0, 0, 0, 0, 0, 0, 9},
-                                { 4, 7, 2, 3, 0, 6, 9, 5, 8},
-                                { 0, 1, 9, 4, 0, 7, 0, 6, 0},
-                                { 3, 0, 8, 2, 5, 9, 0, 1, 0}};
+            int[,] feedback = { { 7, 0, 0, 1, 8, 0, 6, 0, 0},
+                                { 1, 0, 0, 6, 0, 0, 8, 2, 5},
+                                { 4, 8, 6, 5, 9, 0, 3, 0, 0},
+                                { 0, 2, 0, 4, 6, 8, 0, 1, 0},
+                                { 6, 3, 9, 0, 0, 0, 4, 5, 8},
+                                { 0, 1, 0, 3, 5, 9, 0, 6, 0},
+                                { 0, 0, 8, 0, 2, 5, 1, 3, 6},
+                                { 3, 6, 5, 0, 0, 4, 0, 0, 7},
+                                { 0, 0, 1, 0, 3, 6, 0, 0, 9}};
 
             for (int i=0;i<9;i++)
             {
@@ -59,6 +59,7 @@ namespace SudokuProject
                     {
                         dataGridView1.Rows[i].Cells[j].Value = null;
                         dataGridView1.Rows[i].Cells[j].Style.ForeColor = Color.Blue;
+                        dataGridView1.Rows[i].Cells[j].ReadOnly = false;
                     }
                 }
             }
@@ -66,15 +67,15 @@ namespace SudokuProject
 
         private void btMedium_Click(object sender, EventArgs e)
         {
-            int[,] feedback = { { 0, 3, 0, 8, 0, 0, 0, 0, 0},
-                                { 9, 0, 5, 6, 0, 0, 7, 0, 0},
-                                { 0, 0, 1, 0, 9, 3, 2, 0, 0},
-                                { 8, 0, 6, 5, 0, 0, 0, 0, 0},
-                                { 0, 4, 0, 0, 3, 0, 0, 0, 0},
-                                { 0, 0, 0, 0, 0, 0, 0, 0, 0},
-                                { 4, 7, 2, 3, 0, 6, 9, 5, 0},
-                                { 0, 1, 9, 4, 8, 7, 0, 6, 0},
-                                { 3, 6, 8, 2, 5, 9, 0, 1, 0}};
+            int[,] feedback = { { 0, 0, 0, 0, 0, 0, 0, 0, 0},
+                                { 0, 0, 8, 3, 0, 0, 6, 0, 0},
+                                { 2, 3, 0, 0, 6, 8, 1, 5, 0},
+                                { 1, 9, 0, 0, 0, 0, 7, 0, 0},
+                                { 0, 0, 0, 0, 0, 0, 2, 0, 0},
+                                { 3, 4, 2, 5, 0, 0, 0, 6, 0},
+                                { 0, 0, 0, 1, 0, 0, 0, 2, 0},
+                                { 6, 0, 0, 7, 0, 3, 8, 0, 0},
+                                { 0, 1, 0, 6, 0, 4, 3, 0, 0}};
 
             for (int i = 0; i < 9; i++)
             {
@@ -90,6 +91,7 @@ namespace SudokuProject
                     {
                         dataGridView1.Rows[i].Cells[j].Value = null;
                         dataGridView1.Rows[i].Cells[j].Style.ForeColor = Color.Blue;
+                        dataGridView1.Rows[i].Cells[j].ReadOnly = false;
                     }
                 }
             }
@@ -97,15 +99,15 @@ namespace SudokuProject
 
         private void btHard_Click(object sender, EventArgs e)
         {
-            int[,] feedback = { { 0, 3, 0, 8, 0, 0, 0, 9, 0},
-                                { 0, 0, 5, 6, 0, 0, 0, 0, 0},
-                                { 0, 0, 1, 0, 9, 3, 0, 0, 0},
-                                { 8, 0, 6, 5, 0, 0, 0, 0, 0},
-                                { 0, 0, 0, 0, 3, 0, 0, 0, 6},
-                                { 0, 0, 0, 0, 0, 0, 0, 0, 0},
-                                { 4, 7, 0, 3, 0, 6, 0, 0, 0},
-                                { 0, 1, 0, 4, 0, 7, 0, 6, 0},
-                                { 3, 0, 0, 2, 0, 0, 0, 1, 0}};
+            int[,] feedback = { { 2, 0, 0, 5, 0, 7, 4, 0, 6},
+                                { 0, 0, 0, 0, 3, 1, 0, 0, 0},
+                                { 0, 0, 0, 0, 0, 0, 2, 3, 0},
+                                { 0, 0, 0, 0, 2, 0, 0, 0, 0},
+                                { 8, 6, 0, 3, 1, 0, 0, 0, 0},
+                                { 0, 4, 5, 0, 0, 0, 0, 0, 0},
+                                { 0, 0, 9, 0, 0, 0, 7, 0, 0},
+                                { 0, 0, 6, 9, 5, 0, 0, 0, 2},
+                                { 0, 0, 1, 0, 0, 6, 0, 0, 8}};
 
             for (int i = 0; i < 9; i++)
             {
@@ -121,6 +123,7 @@ namespace SudokuProject
                     {
                         dataGridView1.Rows[i].Cells[j].Value = null;
                         dataGridView1.Rows[i].Cells[j].Style.ForeColor = Color.Blue;
+                        dataGridView1.Rows[i].Cells[j].ReadOnly = false;
                     }
                 }
             }
