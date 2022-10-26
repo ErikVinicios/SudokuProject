@@ -306,8 +306,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btEasy;
         private System.Windows.Forms.Button btMedium;
         private System.Windows.Forms.Button btHard;
@@ -325,6 +323,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
+        public System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 
