@@ -37,19 +37,16 @@ namespace SudokuProject
         private void btEasy_Click(object sender, EventArgs e)
         {
             game = new Easy(this);
-            game.CreateGame();
         }
 
         private void btMedium_Click(object sender, EventArgs e)
         {
             game = new Medium(this);
-            game.CreateGame();
         }
 
         private void btHard_Click(object sender, EventArgs e)
         {
             game = new Hard(this);
-            game.CreateGame();
         }
 
         private void btCheck_Click(object sender, EventArgs e)

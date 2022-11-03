@@ -14,6 +14,7 @@ namespace SudokuProject
         public Game(Form1 form1)
         {
             form = form1;
+            CreateGame();
         }
 
         public virtual int[,] Feedback { get; set; }

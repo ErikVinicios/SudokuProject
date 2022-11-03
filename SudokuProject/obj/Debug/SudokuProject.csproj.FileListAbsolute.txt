@@ -31,3 +31,14 @@ D:\C#\SudokuProject\SudokuProject\obj\Debug\SudokuProject.pdb
 D:\C#\SudokuProject\SudokuProject\bin\Debug\SudokuProject.exe.config
 D:\C#\SudokuProject\SudokuProject\bin\Debug\SudokuProject.exe
 D:\C#\SudokuProject\SudokuProject\bin\Debug\SudokuProject.pdb
+C:\Users\Erik Santos\Desktop\projetos\SudokuProject\SudokuProject\bin\Debug\SudokuProject.exe.config
+C:\Users\Erik Santos\Desktop\projetos\SudokuProject\SudokuProject\bin\Debug\SudokuProject.exe
+C:\Users\Erik Santos\Desktop\projetos\SudokuProject\SudokuProject\bin\Debug\SudokuProject.pdb
+C:\Users\Erik Santos\Desktop\projetos\SudokuProject\SudokuProject\obj\Debug\SudokuProject.csproj.AssemblyReference.cache
+C:\Users\Erik Santos\Desktop\projetos\SudokuProject\SudokuProject\obj\Debug\SudokuProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Erik Santos\Desktop\projetos\SudokuProject\SudokuProject\obj\Debug\SudokuProject.Form1.resources
+C:\Users\Erik Santos\Desktop\projetos\SudokuProject\SudokuProject\obj\Debug\SudokuProject.Properties.Resources.resources
+C:\Users\Erik Santos\Desktop\projetos\SudokuProject\SudokuProject\obj\Debug\SudokuProject.csproj.GenerateResource.cache
+C:\Users\Erik Santos\Desktop\projetos\SudokuProject\SudokuProject\obj\Debug\SudokuProject.csproj.CoreCompileInputs.cache
+C:\Users\Erik Santos\Desktop\projetos\SudokuProject\SudokuProject\obj\Debug\SudokuProject.exe
+C:\Users\Erik Santos\Desktop\projetos\SudokuProject\SudokuProject\obj\Debug\SudokuProject.pdb

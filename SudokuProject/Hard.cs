@@ -8,7 +8,7 @@ namespace SudokuProject
 {
     internal class Hard : Game
     {
-        public int[,] HardGame = { { 2, 0, 0, 5, 0, 7, 4, 0, 6},
+        private int[,] HardGame = { { 2, 0, 0, 5, 0, 7, 4, 0, 6},
                                 { 0, 0, 0, 0, 3, 1, 0, 0, 0},
                                 { 0, 0, 0, 0, 0, 0, 2, 3, 0},
                                 { 0, 0, 0, 0, 2, 0, 0, 0, 0},
